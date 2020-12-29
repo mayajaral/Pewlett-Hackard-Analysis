@@ -5,7 +5,9 @@ The purpose of this analysis is to determine the impact of the "silver tsunami",
 
 ## Results: 
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
-- There are a large 
+- There are a large number of employees in senior positions who will be retiring soon.
+- There is a deficit of employees capable of training current employees to the necessary level.
+- Specifically in senior positions, which will see a high number of retirements, there is a lack of mentorship eligable employees.
 
 
 ## Summary: 
