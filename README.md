@@ -5,7 +5,7 @@ The purpose of this analysis is to determine the impact of the "silver tsunami",
 
 ## Results: 
 - 90,398 will need to be filled. This breaks down into 25,000+ positions in the Senior Engineer and Senior Staff roles each, 10,000+ positions in Staff and Engineering roles each, 4,502 technical leader positions, 1761 assistant engineers positions and 2 manager positions.
-![Retirement_Titles.PNG](https://github.com/mayajaral/Pewlett-Hackard-Analysis/blob/main/Images/Retirement_Titles.PNG)
+![Retirement_Titles.PNG](https://github.com/mayajaral/Pewlett-Hackard-Analysis/blob/main/Images/Retirement_Titles.PNG = 250 x 250)
 
 - There are 1,941 employees across departments eligible to mentor the next generation of Pewlett Hackard employees, meaning there is a large deficit in the number of employees needed to mentor the next generation, as each employee would have to mentor 47 employees.
 ![Mentor_Breakdown.PNG](https://github.com/mayajaral/Pewlett-Hackard-Analysis/blob/main/Images/Mentor_Breakdown.PNG)
