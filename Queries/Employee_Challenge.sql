@@ -43,3 +43,34 @@ INNER JOIN titles as ti
 ON (em.emp_no = ti.emp_no)
 WHERE (em.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY em.emp_no ASC;
+
+-- SQL commands for more analysis
+SELECT COUNT(title), title
+FROM mentorship_eligibilty
+GROUP BY title
+ORDER BY COUNT(title) DESC;
+
+
+
+-- Mentorship Program Expanded
+SELECT DISTINCT ON(em.emp_no) em.emp_no, 
+	em.first_name,
+	em.last_name,
+	em.birth_date,
+	de.from_date,
+	de.to_date,
+	ti.title
+INTO mentorship_eligibilty_expanded
+FROM employees AS em
+INNER JOIN dept_emp AS de
+ON (em.emp_no = de.emp_no)
+INNER JOIN titles as ti
+ON (em.emp_no = ti.emp_no)
+WHERE (em.birth_date BETWEEN '1965-01-01' AND '1975-12-31')
+ORDER BY em.emp_no ASC;
+
+-- SQL commands for more analysis
+SELECT COUNT(title), title
+FROM mentorship_eligibilty_expanded
+GROUP BY title
+ORDER BY COUNT(title) DESC;
