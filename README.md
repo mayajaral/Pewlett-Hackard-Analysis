@@ -21,3 +21,5 @@ The purpose of this analysis is to determine the impact of the "silver tsunami",
 - Specifically in senior positions, which will see a high number of retirements, there is a lack of mentorship eligable employees.
 - By expanding the mentorship programs eligibility criterea more mentors can begin the program and started training people withing the company to a mentorship level. This can slowly increase the number of mentors in the company. 
 
+## Note:
+Queries for the analysis are in the Employee_Challenge.sql file.
